@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+body{   background-image: url(image/1620200031975.png);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.422);
+    border-radius: 3vh;
+    background-color: rgb(241, 241, 241);
+    padding: 2%;
+    margin-top: 10vh;
+    padding-bottom: 2%;
+}
+
+.card img{
+    width: 40%;
+    border-radius: 50%;
+    cursor: pointer;  
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+
+.content h2{
+    font-size: 100%;
+}
+
+.content p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    text-align:center;
+    gap: 2px;
+}
+
+.icons{
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+.lin{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 212, 212);
+    border-radius: 3%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.lin :hover{
+    transition: 0.3s;
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.lin a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100%;
+    height: 5vh;
+    color: black;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 40vh;
+}
+
+
+.social a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 5vh;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.social a :hover{
+    color: rgb(77, 77, 77);
+    transition: 0.5s;
+}
